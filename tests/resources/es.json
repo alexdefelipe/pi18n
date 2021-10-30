@@ -1,0 +1,4 @@
+{
+  "HELLO_WORLD": "Hola mundo!",
+  "WITH_PARAMS": "Los parámetros son: {fruit1}, {fruit2} and {fruit3}"
+}

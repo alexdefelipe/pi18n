@@ -1,0 +1,4 @@
+{
+  "HELLO_WORLD": "Hello world!",
+  "WITH_PARAMS": "Params are: {fruit1}, {fruit2} and {fruit3}"
+}
