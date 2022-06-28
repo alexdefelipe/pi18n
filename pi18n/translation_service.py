@@ -1,4 +1,5 @@
 import json
+import os
 from os import listdir
 from os.path import isfile, join
 from typing import Dict, List, TextIO
@@ -39,7 +40,7 @@ class TranslationService:
 
     @classmethod
     def _get_messages_filename(cls, messages_file):
-        return messages_file.name.split('\\')[-1].split('.')[0]
+        return messages_file.name.split(os.sep)[-1].split('.')[0]
 
     @classmethod
     def _get_messages(cls, messages_file: TextIO) -> Dict[str, str]:
