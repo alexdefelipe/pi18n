@@ -10,7 +10,7 @@ with open(path.join(HERE, 'README.md'), encoding='utf-8') as f:
 setup(
     name='pi18n',
     packages=find_packages(),
-    version='0.1.2',
+    version='0.1.3',
     description='A Python internationalization (i18n) package',
     long_description=long_description,
     long_description_content_type="text/markdown",
